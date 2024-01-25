@@ -34,10 +34,10 @@ function About() {
     <main>
       <Page page="page"/>
       <section className='bg-gray-100 md:flex'> 
-        <div className='w-1/2 py-6 ml-16'>
+        <div className='py-6 ml-16 md:w-1/2'>
           <img src={aboutImg} alt="" />
         </div>
-        <div className='w-1/2 pt-6 mr-10'>
+        <div className='pt-6 mx-5 mr-10 md:w-1/2'>
           <h1 className='text-3xl font-bold text-blue-500 '>We help you to get your best Work Done.</h1>
           <p className='pt-10 text-lg '>We are a team of technical experts with experience in software development and the Indian stock market for more than 15 years. Our strength is in the field of strategy development with the capability of understanding different market conditions
             has helped us forge our place as frontiers in the Stocks, Commodity, Currency market.</p>
