@@ -95,7 +95,7 @@ function Faq() {
           </div>
           <div className='grid-cols-3 gap-4 px-16 md:grid'>
             {services.map((service)=>(
-              <div key={service.id} className='p-8 text-center bg-white border-4 border-fuchsia-400'>
+              <div key={service.id} className='p-8 text-center bg-white border-4 border-red-600'>
                 <h1 className='pb-2 text-2xl font-bold text-blue-600 '>{service.title}</h1>
                 <p className='pt-2 text-lg text-slate-500'>{service.desc}</p>
               </div>

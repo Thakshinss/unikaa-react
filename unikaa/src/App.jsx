@@ -43,7 +43,7 @@ const router =createBrowserRouter([
 
 function App() {
 
-  return <RouterProvider router={router} className='font-kumbh' />
+  return <RouterProvider router={router} />
 }
 
 export default App
